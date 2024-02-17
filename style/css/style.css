@@ -1,0 +1,88 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.todo {
+  width: 50%;
+  height: 100%;
+  background-image: url("/style/img/martin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.todo .imagen {
+  width: 100%;
+  height: 70%;
+}
+.todo .imagen .imagen-principal {
+  width: 100%;
+  height: 100%;
+}
+.todo .imagen .imagen-principal img {
+  height: 20%;
+  height: 20%;
+}
+.todo .separador {
+  background-color: rgba(255, 255, 255, 0.719);
+}
+.todo .titulo {
+  height: 20%;
+}
+.todo .titulo .titulo-div {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 255, 0.479);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.todo .titulo .titulo-div .semiti {
+  display: flex;
+  position: absolute;
+  justify-content: right;
+  text-align: center;
+  height: 20%;
+  width: 50%;
+}
+.todo .titulo .titulo-div .semiti p {
+  font-size: 0.9rem;
+  letter-spacing: 0.2rem;
+  color: white;
+}
+.todo .titulo .titulo-div .semiti p strong {
+  color: yellow;
+}
+.todo .titulo .titulo-div p {
+  letter-spacing: 3rem;
+  height: 100%;
+  color: yellow;
+  font-size: 5rem;
+  font-weight: bold;
+}
+.todo .footer {
+  height: 10%;
+}
+.todo .footer .footer-div {
+  height: 100%;
+  background-color: rgb(203, 203, 7);
+}
+.todo .footer .footer-div p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.5rem;
+  word-spacing: 1rem;
+  height: 100%;
+  color: rgb(34, 0, 255);
+  font-size: 2rem;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
